@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #110d1c;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,11 +27,95 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+
+  width: 90%;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #1d1b31;
+
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+
+  border-radius: 20px;
+
+  font-size: 14px;
+
+  color: #fff9f9;
+
 }
+
+.card h2 {
+
+  font-size: 18px;
+
+  margin: 0;
+
+  color: #0062e3;
+
+}
+
+.card .address {
+
+  color: #ffffff;
+
+  margin: 5px 0;
+
+}
+
+.card .info {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin: 15px 0;
+
+}
+
+.info-item {
+
+  display: flex;
+
+  align-items: center;
+
+  color: #ffffff;
+
+}
+
+.info-item svg {
+
+  margin-right: 5px;
+
+}
+
+
+
+.status-tags span {
+
+  background-color: #747474;
+
+  color: #ffffff;
+
+  padding: 5px 10px;
+
+  border-radius: 12px;
+
+  font-size: 12px;
+
+}
+
+.card .price {
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  color: #ffffff;
+
+}
+

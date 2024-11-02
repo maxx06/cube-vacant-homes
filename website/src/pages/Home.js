@@ -4,6 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ListHomes from "./ListHomes"
 
+
 export default function Home() {
     
     return (
@@ -11,12 +12,14 @@ export default function Home() {
     <div className="App">
         <header className="App-header">
             <h1>
-                Vacant Homes
+                Cojomada
             </h1>
             <p>
                 Find your next investment. Send an offer. All in one platform.
             </p>
-            <input></input>
+            <input placeholder="Enter Location"></input>
+            <input placeholder="Price Low"></input>
+            <input placeholder="Price High"></input>
             <button>Search</button>
             
            
