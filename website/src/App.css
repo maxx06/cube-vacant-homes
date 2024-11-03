@@ -46,7 +46,11 @@
   color: #fff9f9;
 
 }
-
+.email {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 100px;
+}
 .card h2 {
 
   font-size: 18px;
@@ -83,7 +87,8 @@
 }
 
 .button-64 {
-  margin-top:30px;
+  margin-top:15px;
+  margin-bottom:15px;
   width: 200px;
   margin-left: 20px;
   margin-right: 20px;

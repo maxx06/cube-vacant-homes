@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import ReactDOM from 'react-dom/client';
 import { Link } from 'react-router-dom';
 import Listing from "./components/Listing"
+import Email from "./components/Email"
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
             
             <button className="button-64">Search</button>
             
-           
+            
         </header>
         <Listing address="2301 Cheek Rd" city="Durham" state="NC" price="$300,000"/>
         <Listing address="307 Cherry Grv" city="Durham" state="NC" price="$275,000"/>
@@ -39,6 +40,10 @@ function App() {
         <Listing address="844 Horton Rd Apt 73" city="Durham" state="NC" price="$150,000"/>
         <Listing address="513 Craven St" city="Durham" state="NC" price="$250,000"/>
         <Listing address="2510 Stadium Dr" city="Durham" state="NC" price="$400,000"/>
+        <div className="App-header">
+          <Email />
+        </div>
+        
     </div>
       </BrowserRouter>
     </React.StrictMode>

@@ -9,7 +9,7 @@ export default function Listing(props) {
             <header className="App-header">
                 <div class="card">
 
-                    <h2>{props.address}</h2>
+                    <a><h2>{props.address}</h2></a>
 
                     <p class="address">{props.city} {props.state}</p>
 
